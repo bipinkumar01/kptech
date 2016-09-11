@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="material_spinner_align_labels">false</bool>
+    <bool name="material_spinner_multi_line">false</bool>
+
+    <bool name="attach_to_root">false</bool>
+    <bool name="single_line_true">true</bool>
+    <bool name="single_line_false">false</bool>
+    <bool name="progress_dialog_indeterminate">true</bool>
+
+    <bool name="login_requested_true">true</bool>
+    <bool name="login_requested_false">false</bool>
+
+    <bool name="individual_reg_user_type_requested_true">true</bool>
+    <bool name="individual_reg_user_type_requested_false">false</bool>
+    <bool name="organization_reg_user_type_requested_true">true</bool>
+    <bool name="organization_reg_user_type_requested_false">false</bool>
+    <bool name="next_screen_requested_true">true</bool>
+    <bool name="next_screen_requested_false">false</bool>
+    <bool name="registration_requested_true">true</bool>
+    <bool name="registration_requested_false">false</bool>
+
+    <bool name="animate_layout_changes">true</bool>
+    <bool name="display_show_home_enabled">true</bool>
+    <bool name="display_show_custom_enabled">true</bool>
+    <bool name="profile_screen_requested_false">false</bool>
+    <bool name="profile_screen_requested_true">true</bool>
+    <bool name="donated_item_screen_requested_false">false</bool>
+    <bool name="donated_item_screen_requested_true">true</bool>
+    <bool name="received_item_screen_requested_false">false</bool>
+    <bool name="received_item_screen_requested_true">true</bool>
+    <bool name="listed_item_screen_requested_false">false</bool>
+    <bool name="listed_item_screen_requested_true">true</bool>
+</resources>

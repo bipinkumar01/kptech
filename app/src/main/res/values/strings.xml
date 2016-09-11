@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KPTECH</string>
+
+    <string name="drawer_user_image_description">Drawer user image description</string>
+    <string name="dev_name">KPTECH</string>
+    <string name="home">Home</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="courses">Courses</string>
+    <string name="team">Team</string>
+    <string name="services">Services</string>
+    <string name="management">Management</string>
+    <string name="gallery">Gallery</string>
+    <string name="contact">Contact</string>
+    <string name="msg">We provide you courses which helps you to get closer to your dreams</string>
+</resources>

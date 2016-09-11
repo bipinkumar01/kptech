@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Text Size-->
+    <dimen name="txt_size_user_name_drawer">19sp</dimen>
+    <dimen name="txt_size_drawer">17sp</dimen>
+    <dimen name="txt_size_30">30sp</dimen>
+
+    <!--Navigation Drawer-->
+    <dimen name="toolbar_height">60dp</dimen>
+    <dimen name="height_zero">0dp</dimen>
+    <dimen name="width_zero">0dp</dimen>
+    <dimen name="padding_start_and_end_drawer_layout">20dp</dimen>
+    <dimen name="padding_top_and_bottom_drawer_layout">30dp</dimen>
+    <dimen name="width_user_image_drawer">60dp</dimen>
+    <dimen name="height_user_image_drawer">60dp</dimen>
+    <dimen name="txt_padding_user_name_drawer">20dp</dimen>
+    <dimen name="padding_bottom_drawer_layout">40dp</dimen>
+    <dimen name="drawable_padding_drawer">40dp</dimen>
+    <dimen name="padding_start_and_end_drawer_text_view">20dp</dimen>
+
+
+    <!--Material spinner dimens-->
+    <dimen name="material_spinner_underline_top_spacing">8dp</dimen>
+    <dimen name="material_spinner_underline_bottom_spacing">4dp</dimen>
+    <dimen name="material_spinner_error_label_spacing">12dp</dimen>
+    <dimen name="material_spinner_floating_label_top_spacing">4dp</dimen>
+    <dimen name="material_spinner_floating_label_bottom_spacing">8dp</dimen>
+    <dimen name="material_spinner_floating_label_inside_spacing">12dp</dimen>
+    <dimen name="material_spinner_right_left_spinner_padding">8dp</dimen>
+    <dimen name="material_spinner_label_text_size">12sp</dimen>
+    <dimen name="material_spinner_min_content_height">20dp</dimen>
+    <dimen name="padding_layout_profile">4dp</dimen>
+
+    <!--Image dimen-->
+    <dimen name="image_size_profile">148dp</dimen>
+
+</resources>

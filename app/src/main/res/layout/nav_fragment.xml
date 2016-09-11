@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_drawer_background_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_zero"
+        android:layout_weight="@integer/three"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_top_and_bottom_drawer_layout"
+        android:paddingEnd="@dimen/padding_start_and_end_drawer_layout"
+        android:paddingStart="@dimen/padding_start_and_end_drawer_layout"
+        android:paddingTop="@dimen/padding_top_and_bottom_drawer_layout">
+
+        <ImageView
+            android:layout_width="@dimen/width_user_image_drawer"
+            android:layout_height="@dimen/height_user_image_drawer"
+            android:contentDescription="@string/drawer_user_image_description"
+            android:src="@mipmap/ic_launcher" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="@dimen/txt_padding_user_name_drawer"
+                android:text="@string/dev_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_size_user_name_drawer" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_zero"
+        android:layout_weight="@integer/ten"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_bottom_drawer_layout">
+
+        <com.bipin.kptech.libs.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_zero"
+            android:layout_weight="@integer/one"
+            ripple:rv_type="rectangle"
+            ripple:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/txtHomeDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/drawable_padding_drawer"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/padding_start_and_end_drawer_text_view"
+                android:paddingStart="@dimen/padding_start_and_end_drawer_text_view"
+                android:text="@string/home"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_size_drawer" />
+        </com.bipin.kptech.libs.RippleView>
+        <com.bipin.kptech.libs.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_zero"
+            android:layout_weight="@integer/one"
+            ripple:rv_type="rectangle"
+            ripple:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/txtCourseDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/drawable_padding_drawer"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/padding_start_and_end_drawer_text_view"
+                android:paddingStart="@dimen/padding_start_and_end_drawer_text_view"
+                android:text="@string/courses"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_size_drawer" />
+        </com.bipin.kptech.libs.RippleView>
+        <com.bipin.kptech.libs.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_zero"
+            android:layout_weight="@integer/one"
+            ripple:rv_type="rectangle"
+            ripple:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/txtTeamDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/drawable_padding_drawer"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/padding_start_and_end_drawer_text_view"
+                android:paddingStart="@dimen/padding_start_and_end_drawer_text_view"
+                android:text="@string/team"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_size_drawer" />
+        </com.bipin.kptech.libs.RippleView>
+        <com.bipin.kptech.libs.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_zero"
+            android:layout_weight="@integer/one"
+            ripple:rv_type="rectangle"
+            ripple:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/txtServiceDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/drawable_padding_drawer"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/padding_start_and_end_drawer_text_view"
+                android:paddingStart="@dimen/padding_start_and_end_drawer_text_view"
+                android:text="@string/services"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_size_drawer" />
+        </com.bipin.kptech.libs.RippleView>
+        <com.bipin.kptech.libs.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_zero"
+            android:layout_weight="@integer/one"
+            ripple:rv_type="rectangle"
+            ripple:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/txtMagntDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/drawable_padding_drawer"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/padding_start_and_end_drawer_text_view"
+                android:paddingStart="@dimen/padding_start_and_end_drawer_text_view"
+                android:text="@string/management"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_size_drawer" />
+        </com.bipin.kptech.libs.RippleView>
+        <com.bipin.kptech.libs.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_zero"
+            android:layout_weight="@integer/one"
+            ripple:rv_type="rectangle"
+            ripple:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/txtGalleryDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/drawable_padding_drawer"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/padding_start_and_end_drawer_text_view"
+                android:paddingStart="@dimen/padding_start_and_end_drawer_text_view"
+                android:text="@string/gallery"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_size_drawer" />
+        </com.bipin.kptech.libs.RippleView>
+        <com.bipin.kptech.libs.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_zero"
+            android:layout_weight="@integer/one"
+            ripple:rv_type="rectangle"
+            ripple:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/txtContactDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/drawable_padding_drawer"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/padding_start_and_end_drawer_text_view"
+                android:paddingStart="@dimen/padding_start_and_end_drawer_text_view"
+                android:text="@string/contact"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_size_drawer" />
+        </com.bipin.kptech.libs.RippleView>
+
+    </LinearLayout>
+</LinearLayout>
